@@ -2,44 +2,35 @@
 
 code
 
-#include <iostream>;
+#include <iostream>
 using namespace std;
 int main() {
+    
+    int number;
+ cout<<"Enter the number of sides: ";
 
-	int a;
-
-	cout << "enter side: " << endl;
-	cin >> a;
-	cout << " " << endl;
-
-	switch (a) {
-	case 3:
-		cout << "triangle" <<endl;
-			break;
-	case 4:
-		cout << "quadrilateral" <<endl;
-			break;
-	case 5:
-		cout << "pentagon" << endl;
-		break;
-	case 6:
-		cout << "hexagon" << endl;
-		break;
-	case 7:
-		cout << "heptagon" << endl;
-		break;
-	case 8:
-		cout << "octagon" << endl;
-		break;
-	case 9:
-		cout << "nonagon" << endl;
-		break;
-	case 10:
-		cout << "decagon" << endl;
-		break;
-	default:
-		cout << "invalid" << endl;
-	}
-	cin.get();
-	return 0;
-}
+ if( number==3 ){
+ cout<<"Triangle";
+     
+    if(number==4)
+    cout<<"Quadrilateral";
+    
+    else if(number==5)
+    cout<<"Pentagon";
+    
+    else if(number==6)
+    cout<<"Hexagon";
+    
+    else if(number==7)
+    cout<<"Heftagon";
+    
+    else if(number==8)
+    cout<<"Octagon";
+    
+    else if(number==9)
+    cout<<"Nonagon";
+    
+     else if(number==10)
+    cout<<"Decagon";
+    
+    
